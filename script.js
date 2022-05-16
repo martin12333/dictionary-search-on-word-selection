@@ -6,19 +6,22 @@ $('#ta1').mouseup(
 		var x=window.getSelection().toString()
 		//var x=$('.keyboard6').val()
 
-		var z=''
+		if(x) {
 
-		for(y of lines1){
-			if(y.indexOf(x) !== -1){
-				z+=y+'\n\n'
+			var z = '';
+
+			for (y of lines1) {
+				if (y.indexOf(x) !== -1) {
+					z += y + '\n\n';
+				}
+				//console.log(y)
 			}
-			//console.log(y)
+
+			$('#ta2').val(
+				z
+			);
+
 		}
-
-
-		$('#ta2').val(
-			z
-		)
 	}
 );
 

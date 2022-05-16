@@ -1,0 +1,21 @@
+@font-face {
+  font-family: ASEMTOG_F700;
+  src: url('ASEMTOG_F700.ttf')  format('truetype')  ;
+}
+
+
+textarea.c1 {
+  font-family: ASEMTOG_F700, sans-serif;
+  font-size: 32px;
+  width: 46%;
+  height: 500px;
+  /*padding-right:30px;*/
+}
+
+textarea.c2 {
+  font-family: ASEMTOG_F700, sans-serif;
+  font-size: 32px;
+  width: 46%;
+  height: 500px;
+  /*padding-right:30px;*/
+}
